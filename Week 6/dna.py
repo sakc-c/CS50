@@ -9,6 +9,7 @@ def main():
     # TODO: Check for command-line usage
     if len(sys.argv) != 3:
         print("command line arguments missing")
+        return
     else:
         csvFile = sys.argv[1]
         textFile = sys.argv[2]
